@@ -1,0 +1,50 @@
+﻿server:
+  port: 8080
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+  datasource:
+    url: jdbc:h2:mem:demosales
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:schema.sql
+      data-locations: classpath:data.sql
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+agent-framework:
+  llm:
+    api-key: ${DEEPSEEK_API_KEY}
+    model: deepseek-v4-flash
+    base-url: https://api.deepseek.com/v1
+  plugin:
+    database:
+      enabled: true
+      auto-discover: false
+      dialect: h2
+      include-tables:
+        - orders
+        - products
+      column-descriptions:
+        orders.status: "paid=宸叉敮浠? pending=寰呮敮浠? cancelled=宸插彇娑?
+        orders.region: "鍗庡崡/鍗庝笢/鍗庡寳/瑗垮崡/瑗垮寳"
+        products.stock: "搴撳瓨鏁伴噺"
+        orders.order_date: "DATE绫诲瀷锛屾煡璇㈡椂鐢?YYYY-MM-DD 鏍煎紡锛屼笉瑕佺敤鏃堕棿鎴?
+        orders.amount: "璁㈠崟閲戦锛孌ECIMAL绫诲瀷"
+    knowledge:
+      enabled: true
+      chunker: simple
+      embedder:
+        api-key: ${EMBEDDING_API_KEY:}
+        model: text-embedding-3-small
+        base-url: https://api.openai.com/v1
+
