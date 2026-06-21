@@ -162,7 +162,9 @@ public class ProjectService {
 - [ ] Agent 间通信
 - [ ] 可视化编排
 
-## License\n\nApache 2.0
+## License
+
+Apache 2.0
 
 ## 联系作者
 
@@ -170,6 +172,7 @@ public class ProjectService {
 
 Email: zjzjcw@163.com
 GitHub: https://github.com/cml011/spring-ai-agent
+
 
 
 
