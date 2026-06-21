@@ -169,7 +169,8 @@ public class ProjectService {
 如需企业版咨询、技术合作或集成指导，欢迎联系。
 
 Email: zjzjcw@163.com
-GitHub: https://github.com/your-username/spring-ai-agent
+GitHub: https://github.com/cml011/spring-ai-agent
+
 
 
 
