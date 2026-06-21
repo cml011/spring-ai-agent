@@ -35,11 +35,11 @@ agent-framework:
         - orders
         - products
       column-descriptions:
-        orders.status: "paid=宸叉敮浠? pending=寰呮敮浠? cancelled=宸插彇娑?
-        orders.region: "鍗庡崡/鍗庝笢/鍗庡寳/瑗垮崡/瑗垮寳"
-        products.stock: "搴撳瓨鏁伴噺"
-        orders.order_date: "DATE绫诲瀷锛屾煡璇㈡椂鐢?YYYY-MM-DD 鏍煎紡锛屼笉瑕佺敤鏃堕棿鎴?
-        orders.amount: "璁㈠崟閲戦锛孌ECIMAL绫诲瀷"
+        orders.status: "paid=已支付, pending=待支付, cancelled=已取消"
+        orders.region: "华南/华东/华北/西南/西北"
+        products.stock: "库存数量"
+        orders.order_date: "DATE类型，查询时用 YYYY-MM-DD 格式，不要用时间戳"
+        orders.amount: "订单金额，DECIMAL类型"
     knowledge:
       enabled: true
       chunker: simple
