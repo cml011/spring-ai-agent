@@ -144,7 +144,7 @@ agent-framework:
 
 <dependency>
     <groupId>com.github.cml011</groupId>
-    <artifactId>spring-ai-agent</artifactId>
+    <artifactId>java-agent-spring-boot-starter</artifactId>
     <version>0.1.0</version>
 </dependency>
 ```
