@@ -130,6 +130,27 @@ agent-framework:
 
 ## 集成到现有项目
 
+### 方式一：通过 JitPack（推荐，立即可用）
+
+在 pom.xml 中添加：
+
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+<dependency>
+    <groupId>com.github.cml011</groupId>
+    <artifactId>spring-ai-agent</artifactId>
+    <version>0.1.0</version>
+</dependency>
+```
+
+### 方式二：通过 Maven Central（待发布）
+
 ```xml
 <dependency>
     <groupId>io.github.agentframework</groupId>
@@ -138,7 +159,7 @@ agent-framework:
 </dependency>
 ```
 
-给 Service 加 @AgentTool：
+### 给 Service 加 @AgentTool
 
 ```java
 @Service
@@ -149,6 +170,8 @@ public class ProjectService {
     }
 }
 ```
+
+---
 
 ---
 
