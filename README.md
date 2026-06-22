@@ -2,7 +2,8 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Java](https://img.shields.io/badge/Java-8%2B-orange)](https://www.java.com)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.7%2B-brightgreen)](https://spring.io/projects/spring-boot)
-[![JitPack](https://jitpack.io/v/cml011/spring-ai-agent.svg)](https://jitpack.io/#cml011/spring-ai-agent)
+[![JitPack](https://jitpack.io/v/cml011/spring-ai-agent.svg)](https://jitpack.io/#cml01118/spring-ai-agent)
+[![Gitee](https://img.shields.io/badge/Gitee-%E5%90%8C%E6%AD%A5%E4%BB%93%E5%BA%93-red)](https://gitee.com/cml01118/spring-ai-agent)
 
 
 轻量级、Java 原生的 AI Agent 编排框架。
@@ -175,8 +176,10 @@ Apache 2.0
 
 如需企业版咨询、技术合作或集成指导，欢迎联系。
 
-Email: zjzjcw@163.com
-GitHub: https://github.com/cml011/spring-ai-agent
+📧 Email: [zjzjcw@163.com](mailto:zjzjcw@163.com)
+🐙 GitHub: [cml011/spring-ai-agent](https://github.com/cml011/spring-ai-agent)
+🐉 Gitee: [cml01118/spring-ai-agent](https://gitee.com/cml01118/spring-ai-agent)
+⭐ 如果你觉得这个项目有帮助，欢迎 Star
 
 
 
