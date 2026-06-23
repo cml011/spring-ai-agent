@@ -11,7 +11,7 @@
 
     <artifactId>java-agent-llm-openai</artifactId>
     <name>Java Agent LLM 鈥?OpenAI</name>
-    <description>OpenAI 鍏煎 API 閫傞厤鍣紙JDK 8 鍏煎锛孒ttpURLConnection锛?/description>
+    <description>OpenAI-compatible LLM adapter for JDK 8 (HttpURLConnection)</description>
 
     <dependencies>
         <dependency>

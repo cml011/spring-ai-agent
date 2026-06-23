@@ -11,7 +11,7 @@
 
     <artifactId>java-agent-spring-boot-starter</artifactId>
     <name>Java Agent Spring Boot Starter</name>
-    <description>Spring Boot 鑷姩閰嶇疆锛欯AgentTool 鎵弿銆丄gent 娉ㄥ叆銆佹彃浠跺彂鐜?/description>
+    <description>Spring Boot auto-config: @AgentTool, Agent injection, plugins</description>
 
     <dependencies>
         <dependency>

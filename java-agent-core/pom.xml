@@ -11,7 +11,7 @@
 
     <artifactId>java-agent-core</artifactId>
     <name>Java Agent Core</name>
-    <description>鏍稿績鎶借薄锛欰gent銆丩LM銆乀ool銆丮emory</description>
+    <description>Core abstractions: Agent, Tool, LLM, Memory, annotations (JDK 8+)</description>
 
     <dependencies>
         <dependency>

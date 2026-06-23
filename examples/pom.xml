@@ -11,7 +11,7 @@
 
     <artifactId>java-agent-examples</artifactId>
     <name>Java Agent Examples</name>
-    <description>妗嗘灦浣跨敤绀轰緥锛氭暟鎹簱鏌ヨ + @AgentTool 鍒涘缓涓氬姟</description>
+    <description>Demo Spring Boot application with H2, DeepSeek, database query, knowledge base</description>
 
     <dependencies>
         <dependency>

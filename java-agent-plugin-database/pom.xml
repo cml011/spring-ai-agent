@@ -11,7 +11,7 @@
 
     <artifactId>java-agent-plugin-database</artifactId>
     <name>Java Agent Plugin 鈥?Database</name>
-    <description>鏁版嵁搴撴煡璇?Tool锛歋chemaInspector + DatabaseQueryTool</description>
+    <description>Database query plugin: SchemaInspector + DatabaseQueryTool</description>
 
     <dependencies>
         <dependency>

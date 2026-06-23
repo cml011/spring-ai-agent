@@ -11,7 +11,7 @@
 
     <artifactId>java-agent-plugin-knowledge</artifactId>
     <name>Java Agent Plugin 鈥?Knowledge Base</name>
-    <description>鐭ヨ瘑搴?Plugin锛氭枃妗ｈВ鏋?+ 妫€绱?/description>
+    <description>Knowledge base plugin: document parsing, chunking, vector search</description>
 
     <dependencies>
         <dependency>

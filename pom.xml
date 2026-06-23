@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
 
     <name>Spring AI Agent</name>
-    <description>杞婚噺绾с€丣ava 鍘熺敓鐨?AI Agent 缂栨帓妗嗘灦</description>
+    <description>Spring AI Agent - A lightweight Java-native AI Agent orchestration framework for JDK 8+</description>
 
     <modules>
         <module>java-agent-core</module>
